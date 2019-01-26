@@ -133,7 +133,9 @@
 		-ms-transition: color 0.2s ease, border-bottom-color 0.2s ease;
 		transition: color 0.2s ease, border-bottom-color 0.2s ease;
 		text-decoration: none;
-        outline: none;
+		border-bottom: dotted 1px;
+        outline: 0;
+        border: 0;
 	}
 
 		a:hover {
@@ -1532,11 +1534,7 @@
 /* CTA */
 
 	#cta {
-		padding: 0.1em 0 0.1em 0;
-		text-align: center;
-        padding: 4em 4em 2em 4em;
-		background-color: #ffffff;
-		border-radius: 4px;
+		padding: 2em 0 0.1em 0;
 		text-align: center;
 	}
 
@@ -1592,3 +1590,7 @@
 				}
 
 		}
+
+    .no-underline:hover {
+        text-decoration: none;
+    }
